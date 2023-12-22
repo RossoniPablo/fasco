@@ -2,15 +2,16 @@
     width: 100%;
 }
 
-.s-home .container {
+.s-home .home {
     display: flex;
     width: 100%;
-    padding-top: 6rem;
+    margin-top: 6rem;
+    margin-bottom: 5.31rem;
     justify-content: space-between;
 }
 
 
-.s-home .big-photo {
+.s-home .home .big-photo {
     width: 31.5rem;
     height: 59.25rem;
     border-radius: 0.625rem;
@@ -18,7 +19,7 @@
     position: relative;
 }
 
-.s-home .big-photo img {
+.s-home .home .big-photo img {
     width: 24.5rem;
     height: 35.625rem;
     flex-shrink: 0;
@@ -27,7 +28,7 @@
     left: 3rem;
 }
 
-.s-home .big-photo-right {
+.s-home .home .big-photo-right {
     width: 31.5rem;
     height: 59.25rem;
     border-radius: 0.625rem;
@@ -36,7 +37,7 @@
 
 }
 
-.s-home .big-photo-right img {
+.s-home .home .big-photo-right img {
     width: 15.5625rem;
     height: 35.5rem;
     position: absolute;
@@ -44,14 +45,14 @@
     left: 7rem;
 }
 
-.s-home .cards-center {
+.s-home .home .cards-center {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
 
-.s-home .cards-center .img-top {
+.s-home .home .cards-center .img-top {
     width: 42.6rem;
     height: 15rem;
     background-color: #E0E0E0;
@@ -105,5 +106,9 @@
     width: 12.9375rem;
     height: 3.5rem;
     margin: 0 auto;
+}
 
+.s-home .brands {
+    display: flex;
+    justify-content: space-between;
 }

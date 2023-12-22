@@ -1,0 +1,109 @@
+.s-home {
+    width: 100%;
+}
+
+.s-home .container {
+    display: flex;
+    width: 100%;
+    padding-top: 6rem;
+    justify-content: space-between;
+}
+
+
+.s-home .big-photo {
+    width: 31.5rem;
+    height: 59.25rem;
+    border-radius: 0.625rem;
+    background: #E0E0E0;
+    position: relative;
+}
+
+.s-home .big-photo img {
+    width: 24.5rem;
+    height: 35.625rem;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    left: 3rem;
+}
+
+.s-home .big-photo-right {
+    width: 31.5rem;
+    height: 59.25rem;
+    border-radius: 0.625rem;
+    background: #E0E0E0;
+    position: relative;
+
+}
+
+.s-home .big-photo-right img {
+    width: 15.5625rem;
+    height: 35.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 7rem;
+}
+
+.s-home .cards-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.s-home .cards-center .img-top {
+    width: 42.6rem;
+    height: 15rem;
+    background-color: #E0E0E0;
+    border-radius: 0.625rem;
+}
+
+
+.s-home .cards-center .img-top img {
+    width: 42.6rem;
+    height: 15rem;
+}
+
+.s-home .cards-center .title-cards h1 {
+    color: #484848;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 5.6875rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.s-home .cards-center .title-cards h3 {
+    text-align: center;
+
+    font-size: 11.6875rem;
+
+    font-weight: 500;
+    line-height: 100%;
+
+
+}
+
+.s-home .cards-center .title-cards h2 {
+    color: #484848;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+.s-home .cards-center button {
+    color: #FFF;
+    font-size: 1rem;
+    border-radius: 0.625rem;
+    background: #000;
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 1.19rem;
+    margin-bottom: 2.31rem;
+
+    width: 12.9375rem;
+    height: 3.5rem;
+    margin: 0 auto;
+
+}
